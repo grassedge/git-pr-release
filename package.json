@@ -1,0 +1,35 @@
+{
+  "name": "git-pr-release",
+  "version": "1.0.0",
+  "description": "create pull request for release",
+  "main": "lib/index.js",
+  "bin": {
+    "git-pr-release": "bin/main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@octokit/rest": "^16.35.2",
+    "detect-pull-reqs": "^1.0.1",
+    "minimist": "^1.2.0",
+    "moment": "^2.24.0",
+    "mustache": "^3.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grassedge/git-pr-release.git"
+  },
+  "keywords": [
+    "github",
+    "pull-request",
+    "release"
+  ],
+  "author": "grassedge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grassedge/git-pr-release/issues"
+  },
+  "homepage": "https://github.com/grassedge/git-pr-release#readme"
+}
