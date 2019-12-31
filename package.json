@@ -1,7 +1,7 @@
 {
   "name": "git-pr-release",
   "version": "1.0.0",
-  "description": "create pull request for release",
+  "description": "Create a pull request for release",
   "main": "lib/index.js",
   "bin": {
     "git-pr-release": "bin/main.js"
