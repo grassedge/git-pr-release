@@ -31,6 +31,11 @@ const gitPrRelease = require('../lib/index');
     assign, labels, template,
   });
 
+  if (!releasePr) {
+    console.log(`There are no pull-requests to be released.`);
+    return;
+  }
+
   if (dump) {
     console.log(releasePr)
   }
