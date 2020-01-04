@@ -1,6 +1,6 @@
 {
   "name": "git-pr-release",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create a pull request for release",
   "main": "lib/index.js",
   "bin": {
