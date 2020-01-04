@@ -7,11 +7,12 @@
     "git-pr-release": "bin/main.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "dependencies": {
     "@octokit/rest": "^16.35.2",
     "detect-pull-reqs": "^1.0.3",
+    "jest": "^24.9.0",
     "minimist": "^1.2.0",
     "moment": "^2.24.0",
     "mustache": "^3.2.1"
